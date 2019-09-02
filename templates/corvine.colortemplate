@@ -1,0 +1,203 @@
+# vim: set ft=colortemplate nomodeline:
+Full name:   Corvine
+Short name:  corvine
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A dark, low-contrast colourscheme inspired by Raven and Apprentice
+
+Background: dark
+Neovim:     yes
+
+#
+# Palette
+#
+
+Color: dark_back     #080808 ~
+Color: back          #121212 ~
+Color: faded_back    #1c1c1c ~
+Color: grey          #262626 ~
+Color: light_grey    #3a3a3a ~
+Color: dark_fore     #585858 ~
+Color: faded_fore    #626262 ~
+Color: low_fore      #949494 ~
+Color: fore          #c6c6c6 ~
+Color: white         #eeeeee ~
+
+Color: aqua          #5fd7d7 ~
+Color: blue          #87d7ff ~
+Color: dark_aqua     #87d7d7 ~
+Color: dark_blue     #87afd7 ~
+Color: dark_green    #5faf87 ~
+Color: dark_purple   #afafd7 ~
+Color: dark_red      #d78787 ~
+Color: dark_yellow   #d7d7af ~
+Color: green         #87d7af ~
+Color: orange        #d78700 ~
+Color: purple        #d7afd7 ~
+Color: red           #ffafaf ~
+Color: strong_yellow #d7af00 ~
+Color: yellow        #d7d787 ~
+
+Term colors: grey       dark_red    dark_green dark_yellow
+Term colors: dark_blue  dark_purple dark_aqua  fore
+Term colors: faded_fore red         green      yellow
+Term colors: blue       purple      aqua       white
+
+#
+# Highlighting
+#
+
+Normal         fore        back
+Cursor         back        white
+
+# Vim Interface
+
+CursorLineNr   fore        faded_back
+FoldColumn     faded_fore  faded_back
+Folded         faded_fore  faded_back
+LineNr         faded_fore  dark_back
+MatchParen     white       light_grey bold
+SignColumn     faded_fore  faded_back
+
+Ignore         dark_fore   none
+
+Pmenu          fore        grey
+PmenuSbar      dark_back   dark_back
+PmenuSel       white       light_grey
+PmenuThumb     dark_fore   dark_fore
+
+ErrorMsg       back        dark_red
+ModeMsg        dark_green  none       bold
+MoreMsg        yellow      none
+Question       yellow      none
+WarningMsg     dark_red    none
+
+ColorColumn    none        faded_back
+CursorColumn   none        faded_back
+CursorLine     none        faded_back
+
+QuickFixLine   back        yellow
+StatusLine     fore        grey
+StatusLineNC   faded_fore  faded_back
+VertSplit      faded_back  faded_back
+WildMenu       white       faded_fore
+
+IncSearch      back        orange
+Search         back        strong_yellow
+Visual         none        grey
+
+DiffAdd        back        dark_green
+DiffChange     none        none
+DiffDelete     back        dark_red
+DiffText       back        orange
+
+# Syntax
+
+Comment        faded_fore  none       italic
+Constant       yellow      none
+Error          back        dark_red
+Identifier     purple      none
+PreProc        dark_green  none
+Special        dark_red    none
+Statement      dark_blue   none
+Type           dark_purple none
+
+Delimiter      low_fore    none
+Directory      dark_aqua   none
+Function       purple      none
+String         dark_yellow none
+Title          white       none
+Todo           white       none       bold
+Underlined     blue        none       underline
+
+SpellBad       none        none       undercurl
+SpellCap       none        none       undercurl
+SpellLocal     none        none       undercurl
+SpellRare      none        none       undercurl
+
+markdownBold   orange      none       bold
+markdownItalic orange      none       italic
+
+#
+# Links
+#
+
+# Vim Interface
+
+Terminal         -> Normal
+
+TabLine          -> StatusLineNC
+TabLineFill      -> StatusLineNC
+TabLineSel       -> StatusLine
+
+StatusLineTerm   -> StatusLine
+StatusLineTermNC -> StatusLineNC
+
+VisualNOS        -> Visual
+
+# Diff
+
+diffAdded                 -> DiffAdd
+diffBDiffer               -> WarningMsg
+diffChanged               -> DiffChange
+diffCommon                -> WarningMsg
+diffDiffer                -> WarningMsg
+diffFile                  -> Directory
+diffIdentical             -> WarningMsg
+diffIndexLine             -> Number
+diffIsA                   -> WarningMsg
+diffNoEOL                 -> WarningMsg
+diffOnly                  -> WarningMsg
+diffRemoved               -> DiffDelete
+
+# Syntax
+
+Boolean                   -> Constant
+Character                 -> Constant
+Float                     -> Number
+
+Conditional               -> Statement
+Exception                 -> Statement
+Keyword                   -> Statement
+Label                     -> Statement
+Operator                  -> Statement
+Repeat                    -> Statement
+
+Define                    -> PreProc
+Include                   -> PreProc
+Macro                     -> PreProc
+PreCondit                 -> PreProc
+
+StorageClass              -> Type
+Structure                 -> Type
+Typedef                   -> Type
+
+Debug                     -> Special
+SpecialChar               -> Special
+Tag                       -> Special
+
+SpecialComment            -> Todo
+
+Noise                     -> Delimiter
+StringDelimiter           -> Delimiter
+
+Conceal                   -> Ignore
+NonText                   -> Ignore
+SpecialKey                -> Ignore
+EndOfBuffer               -> Ignore
+Whitespace                -> Ignore
+
+Searchlight               -> IncSearch
+gitcommitOverflow         -> Error
+htmlEndTag                -> Delimiter
+htmlLink                  -> Underlined
+htmlSpecialTagName        -> htmlTagName
+htmlTag                   -> Delimiter
+htmlTagName               -> Statement
+markdownLinkDelimiter     -> Delimiter
+markdownLinkTextDelimiter -> Delimiter
+vimAutoCmdSfxList         -> Type
+helpHyperTextJump         -> Underlined
+vimAutoEventList          -> Identifier
+vimCmdSep                 -> Special
+vimCommentTitle           -> SpecialComment
+vimHighlight              -> Statement
