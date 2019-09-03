@@ -26,3 +26,5 @@ If you’re using a GUI, then Corvine should work out of the box. However, if yo
 | White      | `#c6c6c6` | `#eeeeee` |
 | Foreground | `#c6c6c6` |           |
 | Background | `#121212` |           |
+
+A preset with these colours is included for iTerm.
