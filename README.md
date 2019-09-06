@@ -16,15 +16,15 @@ If you’re using a GUI, then Corvine should work out of the box. However, if yo
 
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
-| Black      | `#262626` | `#626262` |
+| Black      | `#3a3a3a` | `#626262` |
 | Red        | `#d78787` | `#ffafaf` |
-| Green      | `#5faf87` | `#87d7af` |
+| Green      | `#87af5f` | `#afd787` |
 | Yellow     | `#d7d7af` | `#d7d787` |
 | Blue       | `#87afd7` | `#87d7ff` |
 | Magenta    | `#afafd7` | `#d7afd7` |
 | Cyan       | `#87d7d7` | `#5fd7d7` |
 | White      | `#c6c6c6` | `#eeeeee` |
 | Foreground | `#c6c6c6` |           |
-| Background | `#121212` |           |
+| Background | `#262626` |           |
 
 A preset with these colours is included for iTerm.
