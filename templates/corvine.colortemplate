@@ -55,7 +55,7 @@ CursorLineNr   fore        faded_back
 FoldColumn     faded_fore  faded_back
 Folded         faded_fore  faded_back
 LineNr         faded_fore  dark_back
-MatchParen     white       light_grey bold
+MatchParen     back        red  bold
 SignColumn     faded_fore  faded_back
 
 Ignore         dark_fore   none
