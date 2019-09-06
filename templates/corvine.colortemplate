@@ -11,11 +11,11 @@ Neovim:     yes
 # Palette
 #
 
-Color: dark_back     #080808 ~
-Color: back          #121212 ~
-Color: faded_back    #1c1c1c ~
-Color: grey          #262626 ~
-Color: light_grey    #3a3a3a ~
+Color: dark_back     #1c1c1c ~
+Color: back          #262626 ~
+Color: faded_back    #303030 ~
+Color: grey          #444444 ~
+Color: light_grey    #4e4e4e ~
 Color: dark_fore     #585858 ~
 Color: faded_fore    #626262 ~
 Color: low_fore      #949494 ~
