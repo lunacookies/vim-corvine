@@ -76,8 +76,8 @@ CursorColumn   none        faded_back
 CursorLine     none        faded_back
 
 QuickFixLine   back        yellow
-StatusLine     fore        grey
-StatusLineNC   faded_fore  faded_back
+StatusLine     fore        light_grey
+StatusLineNC   low_fore    grey
 VertSplit      faded_back  faded_back
 WildMenu       white       faded_fore
 
