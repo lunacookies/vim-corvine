@@ -96,7 +96,7 @@ Comment        faded_fore  none italic
 Constant       yellow      none
 Error          back        dark_red
 Identifier     purple      none
-PreProc        dark_green  none
+PreProc        green       none
 Special        dark_red    none
 Statement      dark_blue   none
 Type           dark_purple none
