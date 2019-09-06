@@ -60,7 +60,7 @@ SignColumn     faded_fore  faded_back
 
 Ignore         dark_fore   none
 
-Pmenu          fore        grey
+Pmenu          low_fore    grey
 PmenuSbar      dark_back   dark_back
 PmenuSel       white       light_grey
 PmenuThumb     dark_fore   dark_fore
