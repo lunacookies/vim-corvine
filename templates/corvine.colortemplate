@@ -66,7 +66,7 @@ PmenuSel       white       light_grey
 PmenuThumb     dark_fore   dark_fore
 
 ErrorMsg       back        dark_red
-ModeMsg        dark_green  none       bold
+ModeMsg        dark_green  none bold
 MoreMsg        yellow      none
 Question       yellow      none
 WarningMsg     dark_red    none
@@ -92,7 +92,7 @@ DiffText       back        orange
 
 # Syntax
 
-Comment        faded_fore  none       italic
+Comment        faded_fore  none italic
 Constant       yellow      none
 Error          back        dark_red
 Identifier     purple      none
@@ -106,16 +106,16 @@ Directory      dark_aqua   none
 Function       purple      none
 String         dark_yellow none
 Title          white       none
-Todo           white       none       bold
-Underlined     blue        none       underline
+Todo           white       none bold
+Underlined     blue        none underline
 
-SpellBad       none        none       undercurl
-SpellCap       none        none       undercurl
-SpellLocal     none        none       undercurl
-SpellRare      none        none       undercurl
+SpellBad       none        none undercurl
+SpellCap       none        none undercurl
+SpellLocal     none        none undercurl
+SpellRare      none        none undercurl
 
-markdownBold   orange      none       bold
-markdownItalic orange      none       italic
+markdownBold   orange      none bold
+markdownItalic orange      none italic
 
 #
 # Links
