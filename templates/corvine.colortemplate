@@ -85,10 +85,10 @@ IncSearch      back         orange
 Search         back         strong_yellow
 Visual         none         grey
 
-DiffAdd        back         green
+DiffAdd        light_green  grey
 DiffChange     none         none
-DiffDelete     back         red
-DiffText       back         orange
+DiffDelete     red          grey
+DiffText       yellow       grey
 
 # Syntax
 
