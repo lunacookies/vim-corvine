@@ -22,100 +22,100 @@ Color: low_fore      #949494 ~
 Color: fore          #c6c6c6 ~
 Color: white         #eeeeee ~
 
-Color: aqua          #5fd7d7 ~
-Color: blue          #87d7ff ~
-Color: dark_aqua     #87d7d7 ~
-Color: dark_blue     #87afd7 ~
-Color: dark_green    #87af5f ~
-Color: dark_purple   #afafd7 ~
-Color: dark_red      #d78787 ~
-Color: dark_yellow   #d7d7af ~
-Color: green         #afd787 ~
+Color: aqua          #87d7d7 ~
+Color: blue          #87afd7 ~
+Color: green         #87af5f ~
+Color: light_aqua    #5fd7d7 ~
+Color: light_blue    #87d7ff ~
+Color: light_green   #afd787 ~
+Color: light_purple  #d7afd7 ~
+Color: light_red     #ffafaf ~
+Color: light_yellow  #d7d787 ~
 Color: orange        #d78700 ~
-Color: purple        #d7afd7 ~
-Color: red           #ffafaf ~
+Color: purple        #afafd7 ~
+Color: red           #d78787 ~
 Color: strong_yellow #d7af00 ~
-Color: yellow        #d7d787 ~
+Color: yellow        #d7d7af ~
 
-Term colors: grey       dark_red    dark_green dark_yellow
-Term colors: dark_blue  dark_purple dark_aqua  fore
-Term colors: faded_fore red         green      yellow
-Term colors: blue       purple      aqua       white
+Term colors: grey       red          green       yellow
+Term colors: blue       purple       aqua        fore
+Term colors: faded_fore light_red    light_green light_yellow
+Term colors: light_blue light_purple light_aqua  white
 
 #
 # Highlighting
 #
 
-Normal         fore        back
-Cursor         back        white
+Normal         fore         back
+Cursor         back         white
 
 # Vim Interface
 
-CursorLineNr   fore        faded_back
-FoldColumn     faded_fore  faded_back
-Folded         faded_fore  faded_back
-LineNr         faded_fore  dark_back
-MatchParen     back        red  bold
-SignColumn     faded_fore  faded_back
+CursorLineNr   fore         faded_back
+FoldColumn     faded_fore   faded_back
+Folded         faded_fore   faded_back
+LineNr         faded_fore   dark_back
+MatchParen     back         light_red bold
+SignColumn     faded_fore   faded_back
 
-Ignore         dark_fore   none
+Ignore         dark_fore    none
 
-Pmenu          low_fore    grey
-PmenuSbar      dark_back   dark_back
-PmenuSel       white       light_grey
-PmenuThumb     dark_fore   dark_fore
+Pmenu          low_fore     grey
+PmenuSbar      dark_back    dark_back
+PmenuSel       white        light_grey
+PmenuThumb     dark_fore    dark_fore
 
-ErrorMsg       back        dark_red
-ModeMsg        dark_green  none bold
-MoreMsg        yellow      none
-Question       yellow      none
-WarningMsg     dark_red    none
+ErrorMsg       back         red
+ModeMsg        green        none      bold
+MoreMsg        light_yellow none
+Question       light_yellow none
+WarningMsg     red          none
 
-ColorColumn    none        faded_back
-CursorColumn   none        faded_back
-CursorLine     none        faded_back
+ColorColumn    none         faded_back
+CursorColumn   none         faded_back
+CursorLine     none         faded_back
 
-QuickFixLine   back        yellow
-StatusLine     fore        light_grey
-StatusLineNC   low_fore    grey
-VertSplit      faded_back  faded_back
-WildMenu       white       faded_fore
+QuickFixLine   back         light_yellow
+StatusLine     fore         light_grey
+StatusLineNC   low_fore     grey
+VertSplit      faded_back   faded_back
+WildMenu       white        faded_fore
 
-IncSearch      back        orange
-Search         back        strong_yellow
-Visual         none        grey
+IncSearch      back         orange
+Search         back         strong_yellow
+Visual         none         grey
 
-DiffAdd        back        dark_green
-DiffChange     none        none
-DiffDelete     back        dark_red
-DiffText       back        orange
+DiffAdd        back         green
+DiffChange     none         none
+DiffDelete     back         red
+DiffText       back         orange
 
 # Syntax
 
-Comment        faded_fore  none italic
-Constant       yellow      none
-Error          back        dark_red
-Identifier     purple      none
-PreProc        green       none
-Special        dark_red    none
-Statement      dark_blue   none
-Type           dark_purple none
+Comment        faded_fore   none      italic
+Constant       light_yellow none
+Error          back         red
+Identifier     light_purple none
+PreProc        light_green  none
+Special        red          none
+Statement      blue         none
+Type           purple       none
 
-Delimiter      low_fore    none
-Directory      dark_aqua   none
-Function       purple      none
-String         dark_yellow none
-Title          white       none
-Todo           white       none bold
-Underlined     blue        none underline
+Delimiter      low_fore     none
+Directory      aqua         none
+Function       light_purple none
+String         yellow       none
+Title          white        none
+Todo           white        none      bold
+Underlined     light_blue   none      underline
 
-SpellBad       none        none undercurl
-SpellCap       none        none undercurl
-SpellLocal     none        none undercurl
-SpellRare      none        none undercurl
+SpellBad       none         none      undercurl
+SpellCap       none         none      undercurl
+SpellLocal     none         none      undercurl
+SpellRare      none         none      undercurl
 
-markdownBold   orange      none bold
-markdownItalic orange      none italic
+markdownBold   orange       none      bold
+markdownItalic orange       none      italic
 
 #
 # Links
