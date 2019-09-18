@@ -32,6 +32,7 @@ Color: light_purple  #d7afd7 ~
 Color: light_red     #ffafaf ~
 Color: light_yellow  #d7d787 ~
 Color: orange        #d78700 ~
+Color: dark_purple   #8787af ~
 Color: purple        #afafd7 ~
 Color: red           #d78787 ~
 Color: strong_yellow #d7af00 ~
@@ -97,7 +98,7 @@ Constant       light_yellow none
 Error          back         red
 Identifier     light_purple none
 PreProc        light_green  none
-Special        red          none
+Special        dark_purple  none
 Statement      blue         none
 Type           purple       none
 
