@@ -24,15 +24,16 @@ Color: white         #eeeeee ~
 
 Color: aqua          #87d7d7 ~
 Color: blue          #87afd7 ~
+Color: dark_purple   #8787af ~
 Color: green         #87af5f ~
 Color: light_aqua    #5fd7d7 ~
 Color: light_blue    #87d7ff ~
 Color: light_green   #afd787 ~
+Color: light_orange  #d7af87 ~
 Color: light_purple  #d7afd7 ~
 Color: light_red     #ffafaf ~
 Color: light_yellow  #d7d787 ~
 Color: orange        #d78700 ~
-Color: dark_purple   #8787af ~
 Color: purple        #afafd7 ~
 Color: red           #d78787 ~
 Color: strong_yellow #d7af00 ~
@@ -105,6 +106,7 @@ Type           purple       none
 Delimiter      low_fore     none
 Directory      aqua         none
 Function       light_purple none
+Number         light_orange none
 String         yellow       none
 Title          white        none
 Todo           white        none      bold
