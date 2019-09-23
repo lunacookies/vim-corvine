@@ -187,7 +187,6 @@ Debug                     -> Special
 SpecialChar               -> Special
 Tag                       -> Special
 
-
 Noise                     -> Delimiter
 StringDelimiter           -> Delimiter
 
@@ -199,6 +198,7 @@ Whitespace                -> Ignore
 
 Searchlight               -> IncSearch
 gitcommitOverflow         -> Error
+helpHyperTextJump         -> Underlined
 htmlEndTag                -> Delimiter
 htmlLink                  -> Underlined
 htmlSpecialTagName        -> htmlTagName
@@ -207,8 +207,8 @@ htmlTagName               -> Statement
 markdownLinkDelimiter     -> Delimiter
 markdownLinkTextDelimiter -> Delimiter
 vimAutoCmdSfxList         -> Type
-helpHyperTextJump         -> Underlined
 vimAutoEventList          -> Identifier
 vimCmdSep                 -> Special
 vimCommentTitle           -> SpecialComment
 vimHighlight              -> Statement
+vimUserFunc               -> Function
