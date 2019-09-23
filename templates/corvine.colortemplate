@@ -125,6 +125,10 @@ markdownItalic orange       none      italic
 fugitiveUnstagedModifier purple none
 fugitiveStagedModifier   purple none
 
+# indentLine plugin
+#let g:indentLine_color_gui  = '@guidark_fore'
+#let g:indentLine_color_term = @term256dark_fore
+
 #
 # Links
 #
