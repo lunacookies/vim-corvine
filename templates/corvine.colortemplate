@@ -110,7 +110,7 @@ Function       light_purple none
 Number         light_orange none
 SpecialComment low_fore     none      italic
 String         yellow       none
-Title          white        none      bold
+Title          fore         none      bold
 Todo           white        none
 Underlined     light_blue   none      underline
 
