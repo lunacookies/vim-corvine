@@ -101,7 +101,7 @@ Identifier     light_purple none
 PreProc        light_green  none
 Special        dark_purple  none
 Statement      blue         none
-Type           purple       none
+Type           purple       none      italic
 
 Delimiter      low_fore     none
 Directory      aqua         none
