@@ -196,6 +196,7 @@ Whitespace                -> Ignore
 
 Searchlight               -> IncSearch
 gitcommitOverflow         -> Error
+gitcommitSummary          -> Title
 helpHyperTextJump         -> Underlined
 htmlEndTag                -> Delimiter
 htmlLink                  -> Underlined
