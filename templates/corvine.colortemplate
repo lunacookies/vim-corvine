@@ -121,6 +121,10 @@ SpellRare      none         none      undercurl
 markdownBold   orange       none      bold
 markdownItalic orange       none      italic
 
+# Remove the italics from the {,un}staged indicators from Fugitive
+fugitiveUnstagedModifier purple none
+fugitiveStagedModifier   purple none
+
 #
 # Links
 #
