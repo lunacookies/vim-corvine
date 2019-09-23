@@ -55,11 +55,11 @@ None           none         none
 # Vim Interface
 
 CursorLineNr   fore         faded_back
-FoldColumn     faded_fore   faded_back
-Folded         faded_fore   faded_back
+FoldColumn     faded_fore   dark_back
+Folded         faded_fore   dark_back
 LineNr         faded_fore   dark_back
 MatchParen     back         light_red bold
-SignColumn     faded_fore   faded_back
+SignColumn     faded_fore   dark_back
 
 Ignore         dark_fore    none
 
@@ -74,7 +74,7 @@ MoreMsg        light_yellow none
 Question       light_yellow none
 WarningMsg     red          none
 
-ColorColumn    none         faded_back
+ColorColumn    none         dark_back
 CursorColumn   none         faded_back
 CursorLine     none         faded_back
 
