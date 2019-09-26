@@ -1,0 +1,200 @@
+Term colors: base3      red          green       yellow
+Term colors: blue       purple       aqua        base8
+Term colors: base6      light_red    light_green light_yellow
+Term colors: light_blue light_purple light_aqua  base9
+
+#
+# Highlighting
+#
+
+Normal         base8        base1
+Cursor         base1        base9
+None           none         none
+
+# Vim Interface
+
+CursorLineNr   base8        base2
+FoldColumn     base6        base0
+Folded         base6        base0
+LineNr         base6        base0
+MatchParen     base1        light_red bold
+SignColumn     base6        base0
+
+Ignore         base5        none
+
+Pmenu          base7        base3
+PmenuSbar      base0        base0
+PmenuSel       base9        base4
+PmenuThumb     base5        base5
+
+ErrorMsg       base1        red
+ModeMsg        green        none      bold
+MoreMsg        light_yellow none
+Question       light_yellow none
+WarningMsg     red          none
+
+ColorColumn    none         base0
+CursorColumn   none         base2
+CursorLine     none         base2
+
+QuickFixLine   base1        light_yellow
+StatusLine     base8        base4
+StatusLineNC   base7        base3
+VertSplit      base2        base2
+WildMenu       base9        base6
+
+IncSearch      base1        orange
+Search         base1        strong_yellow
+Visual         none         base3
+
+DiffAdd        light_green  base3
+DiffChange     none         none
+DiffDelete     red          base3
+DiffText       yellow       base3
+
+# Syntax
+
+Comment        base6        none      italic
+Constant       light_yellow none
+Error          base1        red
+Identifier     light_purple none
+PreProc        light_green  none
+Special        dark_purple  none
+Statement      blue         none
+Type           purple       none      italic
+
+Delimiter      base7        none
+Directory      aqua         none
+Function       light_purple none
+Number         light_orange none
+SpecialComment base7        none      italic
+String         yellow       none
+Title          base8        none      bold
+Todo           base9        none
+Underlined     light_blue   none      underline
+
+SpellBad       none         none      undercurl
+SpellCap       none         none      undercurl
+SpellLocal     none         none      undercurl
+SpellRare      none         none      undercurl
+
+# Remove the italics from the {,un}staged indicators from Fugitive
+fugitiveUnstagedModifier purple none
+fugitiveStagedModifier   purple none
+
+# indentLine plugin
+#let g:indentLine_color_gui  = '@guibase5'
+#let g:indentLine_color_term = @term256base5
+
+#
+# Links
+#
+
+# Vim Interface
+
+Terminal         -> Normal
+
+TabLine          -> StatusLineNC
+TabLineFill      -> StatusLineNC
+TabLineSel       -> StatusLine
+
+StatusLineTerm   -> StatusLine
+StatusLineTermNC -> StatusLineNC
+
+VisualNOS        -> Visual
+
+# Diff
+
+diffAdded          -> DiffAdd
+diffBDiffer        -> WarningMsg
+diffChanged        -> DiffChange
+diffCommon         -> WarningMsg
+diffDiffer         -> WarningMsg
+diffFile           -> Directory
+diffIdentical      -> WarningMsg
+diffIndexLine      -> Number
+diffIsA            -> WarningMsg
+diffNoEOL          -> WarningMsg
+diffOnly           -> WarningMsg
+diffRemoved        -> DiffDelete
+
+# Syntax
+
+Boolean            -> Constant
+Character          -> Constant
+Float              -> Number
+
+Conditional        -> Statement
+Exception          -> Statement
+Keyword            -> Statement
+Label              -> Statement
+Operator           -> Statement
+Repeat             -> Statement
+
+Define             -> PreProc
+Include            -> PreProc
+Macro              -> PreProc
+PreCondit          -> PreProc
+
+StorageClass       -> Type
+Structure          -> Type
+Typedef            -> Type
+
+Debug              -> Special
+SpecialChar        -> Special
+Tag                -> Special
+
+Noise              -> Delimiter
+StringDelimiter    -> Delimiter
+
+Conceal            -> Ignore
+NonText            -> Ignore
+SpecialKey         -> Ignore
+EndOfBuffer        -> Ignore
+Whitespace         -> Ignore
+
+Searchlight        -> IncSearch
+gitcommitOverflow  -> Error
+gitcommitSummary   -> Title
+helpHyperTextJump  -> Underlined
+htmlEndTag         -> Delimiter
+htmlLink           -> Underlined
+htmlSpecialTagName -> htmlTagName
+htmlTag            -> Delimiter
+htmlTagName        -> Statement
+vimAutoCmdSfxList  -> Type
+vimAutoEventList   -> Identifier
+vimCmdSep          -> Special
+vimCommentTitle    -> SpecialComment
+vimHighlight       -> Statement
+vimUserFunc        -> Function
+
+#
+# Markdown
+#
+
+# We imitate iA Writer's extremely minimal markdown highlighting to minimise
+# distraction when writing.
+
+markdownBold   none  none bold
+markdownItalic none  none italic
+markdownUrl    base6 none underline
+markdownCode   none  base3
+markdownFaded  base6 none
+
+markdownBlockquote        -> None
+markdownCodeBlock         -> markdownCode
+markdownCodeDelimiter     -> markdownCode
+markdownH1Delimiter       -> markdownH1
+markdownH2Delimiter       -> markdownH2
+markdownH3Delimiter       -> markdownH3
+markdownH4Delimiter       -> markdownH4
+markdownH5Delimiter       -> markdownH5
+markdownH6Delimiter       -> markdownH6
+markdownId                -> markdownFaded
+markdownIdDeclaration     -> markdownFaded
+markdownLinkDelimiter     -> markdownFaded
+markdownLinkText          -> None
+markdownLinkTextDelimiter -> markdownFaded
+markdownListMarker        -> None
+markdownRule              -> None
