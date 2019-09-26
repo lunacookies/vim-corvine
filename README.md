@@ -14,6 +14,8 @@ Use your favorite runtimepath/plugin manager, or place `corvine.vim` into
 
 If you’re using a GUI, then Corvine should work out of the box. However, if you’re planning to use Corvine in a terminal, the terminal must support the 256 colour palette, which most modern ones do. If you want other terminal output to match with Corvine, then set its colours to match the ones below:
 
+Dark:
+
 | Colour     | Normal    | Bright    |
 | ---        | ---       | ---       |
 | Black      | `#3a3a3a` | `#626262` |
@@ -27,4 +29,19 @@ If you’re using a GUI, then Corvine should work out of the box. However, if yo
 | Foreground | `#c6c6c6` |           |
 | Background | `#262626` |           |
 
-A preset with these colours is included for iTerm.
+Light:
+
+| Colour     | Normal    | Bright    |
+| ---        | ---       | ---       |
+| Black      | `#eee8dc` | `#9e9e9e` |
+| Red        | `#d75f5f` | `#d7005f` |
+| Green      | `#005f00` | `#008700` |
+| Yellow     | `#af8700` | `#af5f00` |
+| Blue       | `#0087d7` | `#00afd7` |
+| Magenta    | `#5f5faf` | `#af5faf` |
+| Cyan       | `#008787` | `#00afaf` |
+| White      | `#585858` | `#000000` |
+| Foreground | `#585858` |           |
+| Background | `#fff9ed` |           |
+
+A preset for both of these colourschemes is included for iTerm.
