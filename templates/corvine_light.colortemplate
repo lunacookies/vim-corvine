@@ -1,0 +1,42 @@
+# vim: set ft=colortemplate nomodeline:
+Full name:   Corvine Light
+Short name:  corvine_light
+Author:      Aramis Razzaghipour <aramisnoah@gmail.com>
+Description: A light, low-contrast colourscheme inspired by Raven and Apprentice
+
+Background: light
+Neovim:     yes
+
+#
+# Palette
+#
+
+Color: base0         #f4efe4 ~
+Color: base1         #fff9ed ~
+Color: base2         #f6f0e4 ~
+Color: base3         #eee8dc ~
+Color: base4         #e5dfd4 ~
+Color: base5         #ccc6bb ~
+Color: base6         #9e9e9e ~
+Color: base7         #949494 ~
+Color: base8         #585858 ~
+Color: base9         #000000 ~
+
+Color: aqua          #008787 ~
+Color: blue          #0087d7 ~
+Color: dark_purple   #5f5f87 ~
+Color: green         #005f00 ~
+Color: light_aqua    #00afaf ~
+Color: light_blue    #00afd7 ~
+Color: light_green   #008700 ~
+Color: light_orange  #af5f5f ~
+Color: light_purple  #af5faf ~
+Color: light_red     #d7005f ~
+Color: light_yellow  #af5f00 ~
+Color: orange        #ff5f00 ~
+Color: purple        #5f5faf ~
+Color: red           #d75f5f ~
+Color: strong_yellow #d7af00 ~
+Color: yellow        #af8700 ~
+
+Include: _style
