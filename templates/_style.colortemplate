@@ -13,7 +13,7 @@ None           none         none
 
 # Vim Interface
 
-CursorLineNr   base8        base2
+CursorLineNr   base8        base3
 FoldColumn     base6        base0
 Folded         base6        base0
 LineNr         base6        base0
