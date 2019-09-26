@@ -20,7 +20,7 @@ Color: dark_fore     #585858 ~
 Color: faded_fore    #6c6c6c ~
 Color: low_fore      #949494 ~
 Color: fore          #d0d0d0 ~
-Color: white         #eeeeee ~
+Color: light_fore    #eeeeee ~
 
 Color: aqua          #87d7d7 ~
 Color: blue          #87afd7 ~
@@ -42,14 +42,14 @@ Color: yellow        #d7d7af ~
 Term colors: grey       red          green       yellow
 Term colors: blue       purple       aqua        fore
 Term colors: faded_fore light_red    light_green light_yellow
-Term colors: light_blue light_purple light_aqua  white
+Term colors: light_blue light_purple light_aqua  light_fore
 
 #
 # Highlighting
 #
 
 Normal         fore         back
-Cursor         back         white
+Cursor         back         light_fore
 None           none         none
 
 # Vim Interface
@@ -65,7 +65,7 @@ Ignore         dark_fore    none
 
 Pmenu          low_fore     grey
 PmenuSbar      dark_back    dark_back
-PmenuSel       white        light_grey
+PmenuSel       light_fore   light_grey
 PmenuThumb     dark_fore    dark_fore
 
 ErrorMsg       back         red
@@ -82,7 +82,7 @@ QuickFixLine   back         light_yellow
 StatusLine     fore         light_grey
 StatusLineNC   low_fore     grey
 VertSplit      faded_back   faded_back
-WildMenu       white        faded_fore
+WildMenu       light_fore   faded_fore
 
 IncSearch      back         orange
 Search         back         strong_yellow
@@ -111,7 +111,7 @@ Number         light_orange none
 SpecialComment low_fore     none      italic
 String         yellow       none
 Title          fore         none      bold
-Todo           white        none
+Todo           light_fore   none
 Underlined     light_blue   none      underline
 
 SpellBad       none         none      undercurl
