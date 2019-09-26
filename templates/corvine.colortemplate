@@ -11,16 +11,16 @@ Neovim:     yes
 # Palette
 #
 
-Color: dark_back     #1c1c1c ~
-Color: back          #262626 ~
-Color: faded_back    #303030 ~
-Color: grey          #3a3a3a ~
-Color: light_grey    #444444 ~
-Color: dark_fore     #585858 ~
-Color: faded_fore    #6c6c6c ~
-Color: low_fore      #949494 ~
-Color: fore          #d0d0d0 ~
-Color: light_fore    #eeeeee ~
+Color: base0         #1c1c1c ~
+Color: base1         #262626 ~
+Color: base2         #303030 ~
+Color: base3         #3a3a3a ~
+Color: base4         #444444 ~
+Color: base5         #585858 ~
+Color: base6         #6c6c6c ~
+Color: base7         #949494 ~
+Color: base8         #d0d0d0 ~
+Color: base9         #eeeeee ~
 
 Color: aqua          #87d7d7 ~
 Color: blue          #87afd7 ~
@@ -39,79 +39,79 @@ Color: red           #d78787 ~
 Color: strong_yellow #d7af00 ~
 Color: yellow        #d7d7af ~
 
-Term colors: grey       red          green       yellow
-Term colors: blue       purple       aqua        fore
-Term colors: faded_fore light_red    light_green light_yellow
-Term colors: light_blue light_purple light_aqua  light_fore
+Term colors: base3      red          green       yellow
+Term colors: blue       purple       aqua        base8
+Term colors: base6      light_red    light_green light_yellow
+Term colors: light_blue light_purple light_aqua  base9
 
 #
 # Highlighting
 #
 
-Normal         fore         back
-Cursor         back         light_fore
+Normal         base8        base1
+Cursor         base1        base9
 None           none         none
 
 # Vim Interface
 
-CursorLineNr   fore         faded_back
-FoldColumn     faded_fore   dark_back
-Folded         faded_fore   dark_back
-LineNr         faded_fore   dark_back
-MatchParen     back         light_red bold
-SignColumn     faded_fore   dark_back
+CursorLineNr   base8        base2
+FoldColumn     base6        base0
+Folded         base6        base0
+LineNr         base6        base0
+MatchParen     base1        light_red bold
+SignColumn     base6        base0
 
-Ignore         dark_fore    none
+Ignore         base5        none
 
-Pmenu          low_fore     grey
-PmenuSbar      dark_back    dark_back
-PmenuSel       light_fore   light_grey
-PmenuThumb     dark_fore    dark_fore
+Pmenu          base7        base3
+PmenuSbar      base0        base0
+PmenuSel       base9        base4
+PmenuThumb     base5        base5
 
-ErrorMsg       back         red
+ErrorMsg       base1        red
 ModeMsg        green        none      bold
 MoreMsg        light_yellow none
 Question       light_yellow none
 WarningMsg     red          none
 
-ColorColumn    none         dark_back
-CursorColumn   none         faded_back
-CursorLine     none         faded_back
+ColorColumn    none         base0
+CursorColumn   none         base2
+CursorLine     none         base2
 
-QuickFixLine   back         light_yellow
-StatusLine     fore         light_grey
-StatusLineNC   low_fore     grey
-VertSplit      faded_back   faded_back
-WildMenu       light_fore   faded_fore
+QuickFixLine   base1        light_yellow
+StatusLine     base8        base4
+StatusLineNC   base7        base3
+VertSplit      base2        base2
+WildMenu       base9        base6
 
-IncSearch      back         orange
-Search         back         strong_yellow
-Visual         none         grey
+IncSearch      base1        orange
+Search         base1        strong_yellow
+Visual         none         base3
 
-DiffAdd        light_green  grey
+DiffAdd        light_green  base3
 DiffChange     none         none
-DiffDelete     red          grey
-DiffText       yellow       grey
+DiffDelete     red          base3
+DiffText       yellow       base3
 
 # Syntax
 
-Comment        faded_fore   none      italic
+Comment        base6        none      italic
 Constant       light_yellow none
-Error          back         red
+Error          base1        red
 Identifier     light_purple none
 PreProc        light_green  none
 Special        dark_purple  none
 Statement      blue         none
 Type           purple       none      italic
 
-Delimiter      low_fore     none
+Delimiter      base7        none
 Directory      aqua         none
 Function       light_purple none
 Number         light_orange none
-SpecialComment low_fore     none      italic
+SpecialComment base7        none      italic
 String         yellow       none
-Title          fore         none      bold
-Todo           light_fore   none
+Title          base8        none      bold
+Todo           base9        none
 Underlined     light_blue   none      underline
 
 SpellBad       none         none      undercurl
@@ -124,8 +124,8 @@ fugitiveUnstagedModifier purple none
 fugitiveStagedModifier   purple none
 
 # indentLine plugin
-#let g:indentLine_color_gui  = '@guidark_fore'
-#let g:indentLine_color_term = @term256dark_fore
+#let g:indentLine_color_gui  = '@guibase5'
+#let g:indentLine_color_term = @term256base5
 
 #
 # Links
@@ -217,11 +217,11 @@ vimUserFunc        -> Function
 # We imitate iA Writer's extremely minimal markdown highlighting to minimise
 # distraction when writing.
 
-markdownBold   none         none      bold
-markdownItalic none         none      italic
-markdownUrl    faded_fore   none      underline
-markdownCode   none         grey
-markdownFaded  faded_fore   none
+markdownBold   none  none bold
+markdownItalic none  none italic
+markdownUrl    base6 none underline
+markdownCode   none  base3
+markdownFaded  base6 none
 
 markdownBlockquote        -> None
 markdownCodeBlock         -> markdownCode
