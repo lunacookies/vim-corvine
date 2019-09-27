@@ -12,7 +12,7 @@ Use your favorite runtimepath/plugin manager, or place `corvine.vim` into
 
 ## Usage
 
-If you’re using a GUI, then Corvine should work out of the box. However, if you’re planning to use Corvine in a terminal, the terminal must support the 256 colour palette, which most modern ones do. If you want other terminal output to match with Corvine, then set its colours to match the ones below:
+If you’re using a GUI, then Corvine should work out of the box. However, if you’re planning to use Corvine in a terminal, the terminal must support the 256 colour palette, which most modern ones do. For Corvine Light, on the other hand, your terminal must support 24-bit colour, also known as True Colour, if you want the correct background colour (apart from this, Corvine Light does not require 24-bit colour). You can enable Vim to use this palette (if it is available) with `set termguicolors`. If you want other terminal output to match with Corvine, then set its colours to match the ones below:
 
 Dark:
 
