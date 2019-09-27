@@ -1,7 +1,8 @@
 <table><tbody align="center"><tr><td>
 <h1>vim-corvine</h1>
-<img src="https://raw.githubusercontent.com/arzg/resources/master/corvine-screenshot.png"/>
-<h3>the <a href="https://github.com/baskerville/etc/blob/master/neovim/.config/nvim/colors/raven-dark.vim">Raven Dark</a> colourscheme for Vim, modified and rebuilt</h3>
+<table><tbody align="center"><tr><td><img src="https://raw.githubusercontent.com/arzg/resources/master/corvine-screenshot.png"/></td>
+<td><img src="https://raw.githubusercontent.com/arzg/resources/master/corvine-light-screenshot.png"/></td></tr></tbody></table>
+<h3>the <a href="https://github.com/baskerville/etc/blob/master/neovim/.config/nvim/colors/raven-dark.vim">Raven</a> colourscheme for Vim, modified and rebuilt</h3>
 <em>made in <a href="https://github.com/lifepillar/vim-colortemplate">Colortemplate</a>, the Toolkit for Vim Colourscheme Designers</em>
 </td></tr></tbody></table>
 
