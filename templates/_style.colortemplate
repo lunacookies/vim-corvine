@@ -17,7 +17,7 @@ CursorLineNr   base8        base3
 FoldColumn     base6        base0
 Folded         base6        base0
 LineNr         base6        base0
-MatchParen     base1        light_red bold
+MatchParen     base9        base0     bold
 SignColumn     base6        base0
 
 Ignore         base5        none
