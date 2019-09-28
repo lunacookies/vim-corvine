@@ -48,9 +48,9 @@ Search         base1        strong_yellow
 Visual         none         base3
 
 DiffAdd        light_green  base3
-DiffChange     none         none
+DiffChange     none         base3
 DiffDelete     red          base3
-DiffText       yellow       base3
+DiffText       light_orange base4
 
 # Syntax
 
