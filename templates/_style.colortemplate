@@ -78,10 +78,6 @@ SpellCap       none         none      undercurl
 SpellLocal     none         none      undercurl
 SpellRare      none         none      undercurl
 
-# Remove the italics from the {,un}staged indicators from Fugitive
-fugitiveUnstagedModifier purple none
-fugitiveStagedModifier   purple none
-
 # indentLine plugin
 #let g:indentLine_color_gui  = '@guibase5'
 #let g:indentLine_color_term = @term256base5
