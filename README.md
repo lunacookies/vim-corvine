@@ -45,4 +45,4 @@ Light:
 | Foreground | `#585858` |           |
 | Background | `#fff9ed` |           |
 
-A preset for both of these colourschemes is included for iTerm.
+A preset for both of these colourschemes is included for iTerm. Only the dark variant has a preset for Terminal.app. This is because Terminal.app doesn’t support 24-bit colour, therefore leading to a situation in which a colourscheme that is impossible to match in Vim is included as a terminal preset. In the end, I simply decided against including the preset to avoid the issue.
