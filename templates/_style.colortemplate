@@ -40,7 +40,7 @@ CursorLine     none         base2
 QuickFixLine   base1        light_yellow
 StatusLine     base8        base4
 StatusLineNC   base7        base3
-VertSplit      base2        base2
+VertSplit      base3        base3
 WildMenu       base9        base6
 
 IncSearch      base1        orange
