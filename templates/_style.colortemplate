@@ -4,6 +4,14 @@ Term colors: base6      light_red    light_green light_yellow
 Term colors: light_blue light_purple light_aqua  base9
 
 #
+# Italic check
+#
+
+#if exists('g:corvine_italics')
+    #let s:italics = g:corvine_italics
+#endif
+
+#
 # Highlighting
 #
 
