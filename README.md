@@ -8,7 +8,7 @@
 
 ## Installation
 
-Use your favorite runtimepath/plugin manager, or place `corvine.vim` into
+Use your favourite runtimepath/plugin manager, or place `corvine.vim` into
 `~/.vim/colors/` for \*nix and `%userprofile%\vimfiles\colors\` for Windows.
 
 ## Usage
